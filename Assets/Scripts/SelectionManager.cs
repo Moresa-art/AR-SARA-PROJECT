@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class SelectionManager : MonoBehaviour
 {
+    public Material selectedMaterial;
+    private Material originalMaterial;
     // Start is called before the first frame update
     void Start()
     {
-        
+        originalMaterial = gameObject.GetComponent<MeshRenderer>().material;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SetSelectedMaterial()
     {
-        
+        gameObject.GetComponent<MeshRenderer>().material = selectedMaterial;
     }
+    public void SetOriginalMaterial()
+    {
+        gameObject.GetComponent<MeshRenderer>().material=originalMaterial;
+    }
+        
+    
 }
