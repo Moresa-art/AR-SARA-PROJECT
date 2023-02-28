@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3305110487989761860}
   - component: {fileID: 2956018356872287795}
   - component: {fileID: 2695112490245868578}
+  - component: {fileID: 6876823900458224768}
   m_Layer: 0
   m_Name: GreenCube
   m_TagString: Untagged
@@ -165,3 +166,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedMaterial: {fileID: 2100000, guid: 1f9c95cafc1309f4aab604ddc26666cb, type: 2}
+--- !u!114 &6876823900458224768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271719787720224178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 797179a55bee479498f2a13b2b10f1eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedMaterial: {fileID: 2100000, guid: f8160edd1aa5f13438f757e3d4327657, type: 2}
